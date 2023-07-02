@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>IJ Buổi 4</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+        <link rel="stylesheet" href="./style.css">
+    <body>
+       <div class="container">
+        <!-- BÀI 1 viết chương trình xuất 3 số theo thứ tự tăng dần -->
+            <h2>Sắp xếp 3 số nguyên tăng dần</h2>
+            <input id="n1" type="num" placeholder="nhập số nguyên thứ nhất"> <br>
+            <input id="n2" type="num" placeholder="nhập số nguyên thứ hai"> <br>
+            <input id="n3" type="num" placeholder="nhập số nguyên thứ ba"> <br>
+            <button onclick="btn1()"> Enter</button> <br>
+            <output id="num1">Số 1:</output> <br>
+            <output id="num2"> Số 2:</output><br>
+            <output id="num3"> Số 3:</output> <br>
+        <!-- BÀI 2  viết chương trình chào hỏi thành viên trong gia đình   -->
+            <hr>
+            <h2 id="hello1">Xin chào ai đang sử dụng máy?</h2>
+            <input type="text" id="thanhvien" placeholder="VD: Bố, Mẹ, Anh, Em">
+            <br>
+            <button onclick="btn2()">Enter</button>
+            <br>
+            <output id="loichao"></output>
+            
+            <hr>
+        <!-- BÀI 3 viết chương trình xuất bao nhiêu số lẻ và số chẵn   -->
+            <h2>Cho 3 số nguyên</h2>
+            <input id="n4" type="num" placeholder="Nhập số nguyên thứ nhất"> <br>
+            <input id="n5" type="num" placeholder="Nhập số nguyên thứ hai"> <br>
+            <input id="n6" type="num" placeholder="Nhập số nguyên thứ ba"> <br>
+            <button onclick="btn3()">Enter</button><br>
+            <span> Số Chẵn: <output id="even"></output></span> <br>
+            <span> Số lẻ: <output id="odd"></output></span> <br>
+            
+            <hr>
+        <!-- BÀI 4 viết chương trình cho nhập 3 cạnh tam giác và biết tam giác đó là tam giác gì    -->
+            <h2> Chương trình nhập 3 cạnh tam giác</h2>
+            <input type="num" id="n7" placeholder="Nhập cạnh a"> <br>
+            <input type="num" id="n8" placeholder="Nhập cạnh b"> <br>
+            <input type="num" id="n9" placeholder="Nhập cạnh c"> <br>
+            <button onclick="btn4()">Enter</button><br>
+            <output id="tamgiac">Tam Giác:</output> <br>
+       </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
